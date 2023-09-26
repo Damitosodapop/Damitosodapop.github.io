@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://imgs.search.brave.com/SqkZos1o6SEx8VovreHfsr3CUIpaVALowiVsIPe3Bik/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wNC53/YWxscGFwZXJiZXR0/ZXIuY29tL3dhbGxw/YXBlci8yMzkvMTUv/NjQwL2Flcm8tZ3Jh/cGhpdGUtNC13YWxs/cGFwZXItcHJldmll/dy5qcGc);
+    color: aliceblue;
+    padding: 1%;
+}
+
+.logo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 7vh;
+}
+
+.menu{
+    display: flex;
+    width: 25vh;
+    height: 205vh;
+    background-image: url(https://imgs.search.brave.com/C1lqFVGzmFG-PJC-S4wPNgwxcCo-R6X7GORhEh2Ylp0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS80OC83/Mi8yUTRjVDkuanBn);
+    color: aliceblue;
+    font-family: 'Sarabun', sans-serif;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cuerpo{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding: 40%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+    background-image: url(https://imgs.search.brave.com/2l6_N35PYur48phCSvDab4F2vx76rY1nQearIH_l8g0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvc2t5LW12ZWhm/cXo2dzJnZXMyZGou/anBn);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+
+}
+
+a{
+    color: rgb(222, 255, 255);
+}
+
+a:hover{
+
+    color: #00ffc8;
+  }
+
+.icon{
+    display: flex;
+    size: 1%;
+}
+
+footer{
+    padding: 1%;
+    background-color: black;
+    color: whitesmoke;
+
+}
